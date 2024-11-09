@@ -16,7 +16,7 @@ export default function Detail() {
     return (
         <div>
             <button onClick={() => navigate(-1)}>←</button>
-           「 {todo.title}」の詳細画面
+           「{todo.title}」の詳細画面
            <p>{todo.text}</p>
         </div>
     )
